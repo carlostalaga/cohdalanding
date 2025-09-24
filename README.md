@@ -1,0 +1,1 @@
+This is a placeholder page for when Digital Pacific had an outage in September 2025

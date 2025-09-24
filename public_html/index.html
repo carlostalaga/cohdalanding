@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cohda Wireless</title>
+
+  <!-- <link rel="icon" href="/BluTulip_favicon-100x100.png" sizes="32x32">
+  <link rel="icon" href="/BluTulip_favicon-200x200.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/BluTulip_favicon-200x200.png"> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <style>
+    /*
+      Josh's Custom CSS Reset
+      https://www.joshwcomeau.com/css/custom-css-reset/
+    */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    * {
+      margin: 0;
+    }
+    body {
+      line-height: 1.4;
+      -webkit-font-smoothing: antialiased;
+    }
+    img, picture, video, canvas, svg {
+      display: block;
+      max-width: 100%;
+    }
+    input, button, textarea, select {
+      font: inherit;
+    }
+    p, h1, h2, h3, h4, h5, h6 {
+      overflow-wrap: break-word;
+    }
+
+
+    /* https://www.trysmudford.com/blog/a-good-reset/ */
+
+    button {
+      -webkit-appearance: none;
+      border-radius: 0;
+      text-align: inherit;
+      background: none;
+      box-shadow: none;
+      padding: 0;
+      cursor: pointer;
+      border: none;
+      color: inherit;
+      font: inherit;
+    }
+
+    /* https://piccalil.li/blog/my-favourite-3-lines-of-css/ */
+    .flow > * + * {
+      margin-block-start: var(--flow-space, 1em);
+    }
+
+    .flow--sm > * {
+      --flow-space: 0.75em;
+    }
+
+    .visually-hidden {
+      clip: rect(0 0 0 0); 
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap; 
+      width: 1px;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    html {
+      height: 100%;
+
+      background: #020106;
+      color: #fff;
+      
+
+      font-family: "Montserrat", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+      font-size: clamp(1em, calc(0.6em + 1vw), 1.5em);
+      font-weight: 400;
+    }
+
+    body {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding-top: 5rem;
+      padding-bottom: 2rem;
+
+      background: #ffffff;
+    }
+
+    .logo {
+      max-width: 15rem;
+      margin-inline: auto;
+    }
+
+    .container {
+      max-width: 100ch;
+      margin-inline: auto;
+      padding-inline: 1.5em;
+    }
+
+    main {
+      padding-block: 4rem 2rem;
+      flex-grow: 1;
+
+      background-image: url('/bg-graphic.jpg');
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-position: center bottom;
+
+      text-shadow: 0 0 0.5em rgba(0,0,0,1), 0 0 0.5em rgba(0,0,0,1);
+    }
+
+    a {
+      color: inherit;
+    }
+
+    strong, b {
+      font-weight: 700;
+    }
+
+    h1 {
+      margin-bottom: 0.5em;
+
+      font-size: 3rem;
+      font-weight: 700;
+      line-height: 1;
+      text-transform: uppercase;
+      /* text-wrap: balance; */
+    }
+
+    @media(max-width: 500px) {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+
+    .subheading {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    .subheading + p {
+      --flow-space: 0.25lh;
+    }
+
+    .text-light-blue {
+      color: #71b0de;
+    }
+  </style>
+</head>
+<body class="flow">
+  <header>
+    <div class="container"><img src="/logo.png" alt="Cohda Wireless logo" class="logo"></div>
+  </header>
+
+  <main>
+    <div class="container text-center flow flow--sm">
+      <h1>
+        Website Maintenance Notice.
+      </h1>
+      <p class="subheading">
+        Our website is currently undergoing scheduled maintenance.
+      </p>
+      <p>In the meantime, should you require any assistance, please contact us on <strong>+61 8 7099 5500</strong> or email us at <strong>inquiry@cohdawireless.com</strong>, and a member of our team will assist you.</p>
+      <p><strong>Thank you for your patience and understanding. We will be back online shortly. </strong></p>
+      <br>
+      <p><strong>Phone:</strong> +61 8 7099 5500 or<br>
+      <strong>Email:</strong> us at inquiry@cohdawireless.com</p>
+    </div>
+  </main>
+
+</body>
+</html>
